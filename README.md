@@ -7,7 +7,7 @@
 This is an n-bit Arithmetic Logic unit built in Xilinx ISE using VHDL. This project was done using modular design principles, so every component of the ALU was written separately, and the final ALU design combined all the components into one. Below is a functions table, showing the input of the select lines and carry in, and the corresponding output operation. Inputs to the ALU are A and B, as well as the select lines and carry in. Outputs are G and the carry out.
 
 ## Navigation
-You can use Xilinx ISE Project Navigator to open the project, and view the schematics, test benches, and component code
+You can use Xilinx ISE Project Navigator to open the project and view the schematics, test benches, and components code.
 
 ## .vhd files
 This project was done using modular design principles, so each part of the ALU is broken into separate components, thus separate files. 
