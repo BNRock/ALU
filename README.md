@@ -19,6 +19,7 @@ This project was done using modular design principles, so each part of the ALU i
 * two_to_one_MUX.vhd: VHDL code for 2 to 1 MUX
 * Arithmetic Circuit.vhd: VHDL code for the arithmetic circuit
 * B_input.vhd: VHDL code for the B input logic component
+* FA_Bin.vhd: VHDL code for the full adder and B logic circuit combined
 * OneStageALU.vhd: VHDL code for a 1 bit ALU
 * Four_Bit_ALU.vhd: VHDL code for a 4 bit ALU, made from four 1-bit ALUs
 
