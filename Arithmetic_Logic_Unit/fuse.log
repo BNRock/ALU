@@ -1,0 +1,35 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/ISE/Arithmetic_Logic_Unit/OneStageALU_tb_isim_beh.exe -prj /home/ise/ISE/Arithmetic_Logic_Unit/OneStageALU_tb_beh.prj work.OneStageALU_tb 
+ISim P.20160913 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/ISE/Arithmetic_Logic_Unit/Arithmetic_Logic_Unit.vhd" into library work
+Parsing VHDL file "/home/ise/ISE/Arithmetic_Logic_Unit/MUX_VHDL.vhd" into library work
+Parsing VHDL file "/home/ise/ISE/Arithmetic_Logic_Unit/fulladdervhdl.vhd" into library work
+Parsing VHDL file "/home/ise/ISE/Arithmetic_Logic_Unit/B_input.vhd" into library work
+Parsing VHDL file "/home/ise/ISE/Arithmetic_Logic_Unit/../Logic_Circuit.vhd" into library work
+Parsing VHDL file "/home/ise/ISE/Arithmetic_Logic_Unit/two_to_one_MUX.vhd" into library work
+Parsing VHDL file "/home/ise/ISE/Arithmetic_Logic_Unit/FA_Bin.vhd" into library work
+Parsing VHDL file "/home/ise/ISE/Arithmetic_Logic_Unit/OneStageALU.vhd" into library work
+Parsing VHDL file "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_ALU.vhd" into library work
+Parsing VHDL file "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" into library work
+ERROR:HDLCompiler:69 - "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 94: <cin> is not declared.
+ERROR:HDLCompiler:1314 - "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 105: Formal port/generic <s2> is not declared in <four_bit_alu>
+ERROR:HDLCompiler:432 - "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 93: Formal <s2_in> has no actual or default value.
+ERROR:HDLCompiler:69 - "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 128: <cin> is not declared.
+ERROR:HDLCompiler:69 - "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 142: <cin> is not declared.
+ERROR:HDLCompiler:69 - "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 156: <cin> is not declared.
+ERROR:HDLCompiler:69 - "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 170: <cin> is not declared.
+ERROR:HDLCompiler:69 - "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 184: <cin> is not declared.
+ERROR:HDLCompiler:69 - "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 198: <cin> is not declared.
+ERROR:HDLCompiler:69 - "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 212: <cin> is not declared.
+ERROR:HDLCompiler:69 - "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 226: <cin> is not declared.
+ERROR:HDLCompiler:69 - "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 240: <cin> is not declared.
+ERROR:HDLCompiler:69 - "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 254: <cin> is not declared.
+ERROR:HDLCompiler:69 - "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 268: <cin> is not declared.
+ERROR:HDLCompiler:69 - "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 282: <cin> is not declared.
+ERROR:HDLCompiler:69 - "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 296: <cin> is not declared.
+ERROR:HDLCompiler:69 - "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 310: <cin> is not declared.
+ERROR:HDLCompiler:69 - "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 324: <cin> is not declared.
+ERROR:HDLCompiler:69 - "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 338: <cin> is not declared.
+Sorry, too many errors..

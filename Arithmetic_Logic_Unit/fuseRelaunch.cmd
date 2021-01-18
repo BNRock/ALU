@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/ISE/Arithmetic_Logic_Unit/OneStageALU_tb_isim_beh.exe" -prj "/home/ise/ISE/Arithmetic_Logic_Unit/OneStageALU_tb_beh.prj" "work.OneStageALU_tb" 

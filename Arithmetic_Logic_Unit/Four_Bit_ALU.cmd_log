@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_ALU.xst" -ofn "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_ALU.syr" 
+xst -intstyle ise -ifn "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_ALU.xst" -ofn "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Four_Bit_ucf.ucf -p xc6slx16-csg324-3 Four_Bit_ALU.ngc Four_Bit_ALU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Four_Bit_ALU_map.ncd Four_Bit_ALU.ngd Four_Bit_ALU.pcf 
+par -w -intstyle ise -ol high -mt off Four_Bit_ALU_map.ncd Four_Bit_ALU.ncd Four_Bit_ALU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Four_Bit_ALU.twx Four_Bit_ALU.ncd -o Four_Bit_ALU.twr Four_Bit_ALU.pcf -ucf Four_Bit_ucf.ucf 
+bitgen -intstyle ise -f Four_Bit_ALU.ut Four_Bit_ALU.ncd 

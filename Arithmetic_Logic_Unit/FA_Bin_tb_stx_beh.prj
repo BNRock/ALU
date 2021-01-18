@@ -1,0 +1,5 @@
+vhdl isim_temp "Arithmetic_Logic_Unit.vhd"
+vhdl isim_temp "fulladdervhdl.vhd"
+vhdl isim_temp "B_input.vhd"
+vhdl isim_temp "FA_Bin.vhd"
+vhdl isim_temp "FA_Bin_tb.vhd"

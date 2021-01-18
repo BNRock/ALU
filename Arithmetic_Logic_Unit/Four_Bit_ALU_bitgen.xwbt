@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_ALU.ncd
+OUTFILE=/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_ALU.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/ise/ISE/Arithmetic_Logic_Unit
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

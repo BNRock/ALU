@@ -1,0 +1,99 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml Four_Bit_ALU.twx Four_Bit_ALU.ncd -o Four_Bit_ALU.twr
+Four_Bit_ALU.pcf -ucf Four_Bit_ucf.ucf
+
+Design file:              Four_Bit_ALU.ncd
+Physical constraint file: Four_Bit_ALU.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2016-11-22)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A0             |Cout           |    9.973|
+A0             |G0             |    8.257|
+A0             |G1             |    8.452|
+A0             |G2             |    9.762|
+A0             |G3             |    9.405|
+A1             |Cout           |    9.098|
+A1             |G1             |    8.320|
+A1             |G2             |    8.887|
+A1             |G3             |    8.530|
+A2             |Cout           |    9.210|
+A2             |G2             |    8.999|
+A2             |G3             |    8.642|
+A3             |Cout           |    8.741|
+A3             |G3             |    8.564|
+B0             |Cout           |   10.353|
+B0             |G0             |    8.743|
+B0             |G1             |    8.832|
+B0             |G2             |   10.142|
+B0             |G3             |    9.785|
+B1             |Cout           |   10.007|
+B1             |G1             |    7.981|
+B1             |G2             |    9.796|
+B1             |G3             |    9.439|
+B2             |Cout           |   10.107|
+B2             |G2             |    9.896|
+B2             |G3             |    9.539|
+B3             |Cout           |    8.538|
+B3             |G3             |    8.393|
+Cin            |Cout           |   12.699|
+Cin            |G0             |   10.460|
+Cin            |G1             |   11.178|
+Cin            |G2             |   12.488|
+Cin            |G3             |   12.131|
+S0             |Cout           |   12.032|
+S0             |G0             |   10.339|
+S0             |G1             |   10.507|
+S0             |G2             |   11.821|
+S0             |G3             |   11.464|
+S1             |Cout           |   12.583|
+S1             |G0             |   10.294|
+S1             |G1             |   11.062|
+S1             |G2             |   12.372|
+S1             |G3             |   12.015|
+S2             |G0             |   10.985|
+S2             |G1             |   10.861|
+S2             |G2             |   10.860|
+S2             |G3             |   10.860|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Nov 26 15:32:03 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 389 MB
+
+
+

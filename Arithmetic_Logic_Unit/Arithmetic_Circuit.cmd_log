@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "/home/ise/Arithmetic_Logic_Unit/Arithmetic_Circuit.xst" -ofn "/home/ise/Arithmetic_Logic_Unit/Arithmetic_Circuit.syr" 
+xst -intstyle ise -ifn "/home/ise/Arithmetic_Logic_Unit/Arithmetic_Circuit.xst" -ofn "/home/ise/Arithmetic_Logic_Unit/Arithmetic_Circuit.syr" 
+netgen -intstyle ise -ar Structure -tm Arithmetic_Circuit -w -dir netgen/synthesis -ofmt vhdl -sim Arithmetic_Circuit.ngc Arithmetic_Circuit_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Arithmetic_Circuit.ngc Arithmetic_Circuit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Arithmetic_Circuit_map.ncd Arithmetic_Circuit.ngd Arithmetic_Circuit.pcf 
+par -w -intstyle ise -ol high -mt off Arithmetic_Circuit_map.ncd Arithmetic_Circuit.ncd Arithmetic_Circuit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Arithmetic_Circuit.twx Arithmetic_Circuit.ncd -o Arithmetic_Circuit.twr Arithmetic_Circuit.pcf 
+xst -intstyle ise -ifn "/home/ise/ISE/Arithmetic_Logic_Unit/Arithmetic_Circuit.xst" -ofn "/home/ise/ISE/Arithmetic_Logic_Unit/Arithmetic_Circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Four_Bit_ucf.ucf -p xc6slx16-csg324-3 Arithmetic_Circuit.ngc Arithmetic_Circuit.ngd  

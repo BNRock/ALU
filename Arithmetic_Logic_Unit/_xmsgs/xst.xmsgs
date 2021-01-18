@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">g_out_mux</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">OneStageALU4/Logic_Circuit1/Logic_Mux/g_out_mux</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">Four_Bit_ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">OneStageALU3/Logic_Circuit1/Logic_Mux/g_out_mux</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">Four_Bit_ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">OneStageALU2/Logic_Circuit1/Logic_Mux/g_out_mux</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">Four_Bit_ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">OneStageALU1/Logic_Circuit1/Logic_Mux/g_out_mux</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">Four_Bit_ALU</arg>&gt;.
+</msg>
+
+</messages>
+

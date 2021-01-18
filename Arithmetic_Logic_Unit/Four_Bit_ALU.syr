@@ -1,0 +1,397 @@
+Release 14.7 - xst P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: Four_Bit_ALU.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Four_Bit_ALU.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Four_Bit_ALU"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : Four_Bit_ALU
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ise/ISE/Arithmetic_Logic_Unit/Arithmetic_Logic_Unit.vhd" into library work
+Parsing entity <HA_VHDL>.
+Parsing architecture <Behavioral> of entity <ha_vhdl>.
+Parsing VHDL file "/home/ise/ISE/Arithmetic_Logic_Unit/MUX_VHDL.vhd" into library work
+Parsing entity <MUX_VHDL>.
+Parsing architecture <mux> of entity <mux_vhdl>.
+Parsing VHDL file "/home/ise/ISE/Arithmetic_Logic_Unit/fulladdervhdl.vhd" into library work
+Parsing entity <fulladdervhdl>.
+Parsing architecture <struc_fulladder> of entity <fulladdervhdl>.
+Parsing VHDL file "/home/ise/ISE/Arithmetic_Logic_Unit/B_input.vhd" into library work
+Parsing entity <B_input>.
+Parsing architecture <input_logic> of entity <b_input>.
+Parsing VHDL file "/home/ise/ISE/Logic_Circuit.vhd" into library work
+Parsing entity <Logic_Circuit>.
+Parsing architecture <Behavioral> of entity <logic_circuit>.
+Parsing VHDL file "/home/ise/ISE/Arithmetic_Logic_Unit/two_to_one_MUX.vhd" into library work
+Parsing entity <two_to_one_MUX>.
+Parsing architecture <Behavioral> of entity <two_to_one_mux>.
+Parsing VHDL file "/home/ise/ISE/Arithmetic_Logic_Unit/FA_Bin.vhd" into library work
+Parsing entity <FA_Bin>.
+Parsing architecture <Behavioral> of entity <fa_bin>.
+Parsing VHDL file "/home/ise/ISE/Arithmetic_Logic_Unit/OneStageALU.vhd" into library work
+Parsing entity <OneStageALU>.
+Parsing architecture <Behavioral> of entity <onestagealu>.
+Parsing VHDL file "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_ALU.vhd" into library work
+Parsing entity <Four_Bit_ALU>.
+Parsing architecture <Behavioral> of entity <four_bit_alu>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Four_Bit_ALU> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <OneStageALU> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <FA_Bin> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <B_input> (architecture <input_logic>) from library <work>.
+
+Elaborating entity <fulladdervhdl> (architecture <struc_fulladder>) from library <work>.
+
+Elaborating entity <HA_VHDL> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Logic_Circuit> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MUX_VHDL> (architecture <mux>) from library <work>.
+
+Elaborating entity <two_to_one_MUX> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Four_Bit_ALU>.
+    Related source file is "/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_ALU.vhd".
+    Summary:
+	no macro.
+Unit <Four_Bit_ALU> synthesized.
+
+Synthesizing Unit <OneStageALU>.
+    Related source file is "/home/ise/ISE/Arithmetic_Logic_Unit/OneStageALU.vhd".
+    Summary:
+	no macro.
+Unit <OneStageALU> synthesized.
+
+Synthesizing Unit <FA_Bin>.
+    Related source file is "/home/ise/ISE/Arithmetic_Logic_Unit/FA_Bin.vhd".
+    Summary:
+	no macro.
+Unit <FA_Bin> synthesized.
+
+Synthesizing Unit <B_input>.
+    Related source file is "/home/ise/ISE/Arithmetic_Logic_Unit/B_input.vhd".
+    Summary:
+	no macro.
+Unit <B_input> synthesized.
+
+Synthesizing Unit <fulladdervhdl>.
+    Related source file is "/home/ise/ISE/Arithmetic_Logic_Unit/fulladdervhdl.vhd".
+    Summary:
+	no macro.
+Unit <fulladdervhdl> synthesized.
+
+Synthesizing Unit <HA_VHDL>.
+    Related source file is "/home/ise/ISE/Arithmetic_Logic_Unit/Arithmetic_Logic_Unit.vhd".
+    Summary:
+Unit <HA_VHDL> synthesized.
+
+Synthesizing Unit <Logic_Circuit>.
+    Related source file is "/home/ise/ISE/Logic_Circuit.vhd".
+    Summary:
+Unit <Logic_Circuit> synthesized.
+
+Synthesizing Unit <MUX_VHDL>.
+    Related source file is "/home/ise/ISE/Arithmetic_Logic_Unit/MUX_VHDL.vhd".
+WARNING:Xst:737 - Found 1-bit latch for signal <g_out_mux>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   1 Latch(s).
+	inferred   3 Multiplexer(s).
+Unit <MUX_VHDL> synthesized.
+
+Synthesizing Unit <two_to_one_MUX>.
+    Related source file is "/home/ise/ISE/Arithmetic_Logic_Unit/two_to_one_MUX.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <two_to_one_MUX> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 4
+ 1-bit latch                                           : 4
+# Multiplexers                                         : 16
+ 1-bit 2-to-1 multiplexer                              : 16
+# Xors                                                 : 12
+ 1-bit xor2                                            : 12
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                                         : 12
+ 1-bit 2-to-1 multiplexer                              : 12
+# Xors                                                 : 12
+ 1-bit xor2                                            : 12
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Four_Bit_ALU> ...
+WARNING:Xst:1294 - Latch <OneStageALU4/Logic_Circuit1/Logic_Mux/g_out_mux> is equivalent to a wire in block <Four_Bit_ALU>.
+WARNING:Xst:1294 - Latch <OneStageALU3/Logic_Circuit1/Logic_Mux/g_out_mux> is equivalent to a wire in block <Four_Bit_ALU>.
+WARNING:Xst:1294 - Latch <OneStageALU2/Logic_Circuit1/Logic_Mux/g_out_mux> is equivalent to a wire in block <Four_Bit_ALU>.
+WARNING:Xst:1294 - Latch <OneStageALU1/Logic_Circuit1/Logic_Mux/g_out_mux> is equivalent to a wire in block <Four_Bit_ALU>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Four_Bit_ALU, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Four_Bit_ALU.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 10
+#      LUT3                        : 2
+#      LUT5                        : 4
+#      LUT6                        : 4
+# IO Buffers                       : 17
+#      IBUF                        : 12
+#      OBUF                        : 5
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                   10  out of   9112     0%  
+    Number used as Logic:                10  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     10
+   Number with an unused Flip Flop:      10  out of     10   100%  
+   Number with an unused LUT:             0  out of     10     0%  
+   Number of fully used LUT-FF pairs:     0  out of     10     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          17
+ Number of bonded IOBs:                  17  out of    232     7%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 7.688ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 69 / 5
+-------------------------------------------------------------------------
+Delay:               7.688ns (Levels of Logic = 5)
+  Source:            A0 (PAD)
+  Destination:       Cout (PAD)
+
+  Data Path: A0 to Cout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.222   0.961  A0_IBUF (A0_IBUF)
+     LUT5:I0->O            3   0.203   0.879  OneStageALU1/FA_Bin1/FA/FA_Out_Co1 (A_sig)
+     LUT5:I2->O            2   0.205   0.864  OneStageALU3/FA_Bin1/FA/FA_Out_Co1 (E_sig)
+     LUT5:I1->O            1   0.203   0.579  OneStageALU4/FA_Bin1/FA/FA_Out_Co1 (Cout_OBUF)
+     OBUF:I->O                 2.571          Cout_OBUF (Cout)
+    ----------------------------------------
+    Total                      7.688ns (4.404ns logic, 3.284ns route)
+                                       (57.3% logic, 42.7% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 9.87 secs
+ 
+--> 
+
+
+Total memory usage is 474096 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

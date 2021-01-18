@@ -1,0 +1,62 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml Arithmetic_Circuit.twx Arithmetic_Circuit.ncd -o
+Arithmetic_Circuit.twr Arithmetic_Circuit.pcf
+
+Design file:              Arithmetic_Circuit.ncd
+Physical constraint file: Arithmetic_Circuit.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A_input        |Cout_out       |    6.284|
+A_input        |G_out          |    6.010|
+B_input_signal |Cout_out       |    6.738|
+B_input_signal |G_out          |    6.464|
+Cin_in         |Cout_out       |    6.564|
+Cin_in         |G_out          |    6.290|
+S0_input       |Cout_out       |    6.734|
+S0_input       |G_out          |    6.460|
+S1_input       |Cout_out       |    6.348|
+S1_input       |G_out          |    6.074|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Nov 18 23:51:03 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 388 MB
+
+
+

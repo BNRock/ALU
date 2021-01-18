@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 94: &lt;<arg fmt="%s" index="1">cin</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1314" delta="unknown" >"/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 105: Formal port/generic &lt;<arg fmt="%s" index="1">s2</arg>&gt; is not declared in &lt;<arg fmt="%s" index="2">four_bit_alu</arg>&gt;
+</msg>
+
+<msg type="error" file="HDLCompiler" num="432" delta="unknown" >"/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 93: Formal &lt;<arg fmt="%s" index="1">s2_in</arg>&gt; has no actual or default value.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 128: &lt;<arg fmt="%s" index="1">cin</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 142: &lt;<arg fmt="%s" index="1">cin</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 156: &lt;<arg fmt="%s" index="1">cin</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 170: &lt;<arg fmt="%s" index="1">cin</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 184: &lt;<arg fmt="%s" index="1">cin</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 198: &lt;<arg fmt="%s" index="1">cin</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 212: &lt;<arg fmt="%s" index="1">cin</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 226: &lt;<arg fmt="%s" index="1">cin</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 240: &lt;<arg fmt="%s" index="1">cin</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 254: &lt;<arg fmt="%s" index="1">cin</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 268: &lt;<arg fmt="%s" index="1">cin</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 282: &lt;<arg fmt="%s" index="1">cin</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 296: &lt;<arg fmt="%s" index="1">cin</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 310: &lt;<arg fmt="%s" index="1">cin</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 324: &lt;<arg fmt="%s" index="1">cin</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"/home/ise/ISE/Arithmetic_Logic_Unit/Four_Bit_tb.vhd" Line 338: &lt;<arg fmt="%s" index="1">cin</arg>&gt; is not declared.
+</msg>
+
+</messages>
+

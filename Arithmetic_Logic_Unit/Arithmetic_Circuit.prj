@@ -1,0 +1,4 @@
+vhdl work "Arithmetic_Logic_Unit.vhd"
+vhdl work "fulladdervhdl.vhd"
+vhdl work "B_input.vhd"
+vhdl work "Arithmetic_Circuit.vhd"
